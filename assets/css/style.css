@@ -1,0 +1,108 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+body {
+    font-family: Impact;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color: aliceblue;
+    text-shadow: 1.5px 0 0 black, -1.5px 0 0 black, 0 1.5px 0 black, 
+    0 -1.5px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black,
+    -1px 1px 0 black;
+    letter-spacing: 3px;
+}
+
+.bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    height: 100%;
+    background-position: center;
+}
+
+.title {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 
+    0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black,
+    -1px 1px 0 black;
+}
+
+.btn {
+    background-color: #611BBD; 
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 30px;
+    width: 200px;
+}
+
+.btn:hover {
+    opacity: .9;
+}
+
+#startBTN {
+    margin-left: 38%;
+    margin-top: 25%;
+}
+
+#restartBTN {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.game {
+    background-color: aliceblue;
+    border: solid 2px black;
+    border-radius: 25px;
+    height: 500px;
+    margin-top: 40px;
+}
+
+#countdown {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#area {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+#option {
+    margin: 5px;
+    border-radius: 5px;
+    width: 400px;
+    color: aliceblue;
+    background-color: #611BBD;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 
+    0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black,
+    -1px 1px 0 black;
+    letter-spacing: 2px;
+}
+
+#option:hover {
+    opacity: .9;
+}
+
+#answerCSS {
+    color: #611BBD;
+    opacity: .8;
+}
+
+#headerCSS {
+    font-size: 40px;
+}
+
+#questionCSS {
+    font-size: 35px;
+}
